@@ -144,7 +144,7 @@
 
         <hr class="my-4">
         <p>Credenciais não encontradas?</p>
-        <a href="index.php?rota=cadastro" class="btn btn-outline-info w-100">SOLICITAR ALISTAMENTO</a>
+        <a href="index.php?rota=cadastro" class="btn btn-outline-info w-100">SOLICITAR ALISTAMENTO</a> 
     </div>
 </body>
 </html>

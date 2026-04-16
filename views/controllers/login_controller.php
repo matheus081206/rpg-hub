@@ -5,7 +5,7 @@ require_once '../models/Usuario.php';
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $email = trim($_POST['email'] ?? '');
-    $senha = trim($_POST['senha'] ?? '');
+    $senha = trim($_POST['senha'] ?? '');  
     $perfil = $_POST['perfil'] ?? 'jogador';
 
     $usuarioModel = new Usuario($pdo); 
@@ -22,6 +22,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         exit();
     } else {
         header("Location: ../index.php?rota=login&erro=credenciais");
-        exit();
+        exit(); 
     }
 }
